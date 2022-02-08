@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013FE56EF170B2F7CFD8262F /* Pods_RetsepUz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3B13B04AA989CC20AEFE7E /* Pods_RetsepUz.framework */; };
+		FB53995B2792A92900F277A7 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53995A2792A92900F277A7 /* SideMenuController.swift */; };
+		FB53995F2792AF0800F277A7 /* SideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53995E2792AF0800F277A7 /* SideCell.swift */; };
+		FB5399612792AF1D00F277A7 /* SideHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5399602792AF1D00F277A7 /* SideHeader.swift */; };
 		FB7599BE2791DFA800B95E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7599BD2791DFA800B95E3B /* AppDelegate.swift */; };
 		FB7599C02791DFA800B95E3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7599BF2791DFA800B95E3B /* SceneDelegate.swift */; };
 		FB7599C22791DFA800B95E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7599C12791DFA800B95E3B /* ViewController.swift */; };
@@ -14,9 +18,40 @@
 		FB7599C82791DFA800B95E3B /* RetsepUz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB7599C62791DFA800B95E3B /* RetsepUz.xcdatamodeld */; };
 		FB7599CA2791DFA900B95E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7599C92791DFA900B95E3B /* Assets.xcassets */; };
 		FB7599CD2791DFA900B95E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7599CB2791DFA900B95E3B /* LaunchScreen.storyboard */; };
+		FB7599D92791EBCE00B95E3B /* MealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7599D82791EBCE00B95E3B /* MealController.swift */; };
+		FB7599E12791F3DE00B95E3B /* launch.json in Resources */ = {isa = PBXBuildFile; fileRef = FB7599E02791F3DE00B95E3B /* launch.json */; };
+		FB7599E42791F54E00B95E3B /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7599E32791F54E00B95E3B /* AppColors.swift */; };
+		FBD02E552796A58A00F26667 /* ZoomAndSnapFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD02E542796A58A00F26667 /* ZoomAndSnapFlowLayout.swift */; };
+		FBD02E582796BCEF00F26667 /* ChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD02E572796BCEF00F26667 /* ChooseController.swift */; };
+		FBD02E5A2796CC5700F26667 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD02E592796CC5700F26667 /* Buttons.swift */; };
+		FBD02E5D2796D57200F26667 /* CakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD02E5C2796D57200F26667 /* CakeController.swift */; };
+		FBF18AB927972ACD00EAC9B7 /* CakeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18AB827972ACD00EAC9B7 /* CakeExtension.swift */; };
+		FBF18ABB27972ADA00EAC9B7 /* CakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18ABA27972ADA00EAC9B7 /* CakeCell.swift */; };
+		FBF18ABD27972AE500EAC9B7 /* CakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18ABC27972AE500EAC9B7 /* CakeModel.swift */; };
+		FBF18AC12797E1EB00EAC9B7 /* CakeRetsepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18AC02797E1EB00EAC9B7 /* CakeRetsepController.swift */; };
+		FBF18AC72797E25300EAC9B7 /* CakeRetsepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18AC62797E25300EAC9B7 /* CakeRetsepModel.swift */; };
+		FBF18AC92798410400EAC9B7 /* SideMenuExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18AC82798410400EAC9B7 /* SideMenuExtension.swift */; };
+		FBF18ACC2798415000EAC9B7 /* AboutAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18ACB2798415000EAC9B7 /* AboutAppController.swift */; };
+		FBF18ACE2798416F00EAC9B7 /* AboutProgrammerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18ACD2798416F00EAC9B7 /* AboutProgrammerController.swift */; };
+		FBF18AD02798424200EAC9B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF18ACF2798424200EAC9B7 /* Constants.swift */; };
+		FBFAEBD92795355F0061E3D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBD82795355F0061E3D8 /* Model.swift */; };
+		FBFAEBDB279542CB0061E3D8 /* MealsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBDA279542CB0061E3D8 /* MealsCell.swift */; };
+		FBFAEBDD2795430F0061E3D8 /* MealsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBDC2795430F0061E3D8 /* MealsExtension.swift */; };
+		FBFAEBDF27954D2B0061E3D8 /* MealsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBDE27954D2B0061E3D8 /* MealsModel.swift */; };
+		FBFAEBE2279568F60061E3D8 /* RetsepController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBE1279568F60061E3D8 /* RetsepController.swift */; };
+		FBFAEBE427956A6E0061E3D8 /* RestsepExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBE327956A6E0061E3D8 /* RestsepExtension.swift */; };
+		FBFAEBE627956A910061E3D8 /* RetsepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBE527956A910061E3D8 /* RetsepCell.swift */; };
+		FBFAEBE827956C7A0061E3D8 /* RetsepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBE727956C7A0061E3D8 /* RetsepModel.swift */; };
+		FBFAEBEB27957A040061E3D8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAEBEA27957A040061E3D8 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9CE9F3F08E004A600A98854 /* Pods-RetsepUz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetsepUz.release.xcconfig"; path = "Target Support Files/Pods-RetsepUz/Pods-RetsepUz.release.xcconfig"; sourceTree = "<group>"; };
+		EB3B13B04AA989CC20AEFE7E /* Pods_RetsepUz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetsepUz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF51332969F276486C663841 /* Pods-RetsepUz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetsepUz.debug.xcconfig"; path = "Target Support Files/Pods-RetsepUz/Pods-RetsepUz.debug.xcconfig"; sourceTree = "<group>"; };
+		FB53995A2792A92900F277A7 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		FB53995E2792AF0800F277A7 /* SideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideCell.swift; sourceTree = "<group>"; };
+		FB5399602792AF1D00F277A7 /* SideHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideHeader.swift; sourceTree = "<group>"; };
 		FB7599BA2791DFA800B95E3B /* RetsepUz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetsepUz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7599BD2791DFA800B95E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7599BF2791DFA800B95E3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +61,31 @@
 		FB7599C92791DFA900B95E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB7599CC2791DFA900B95E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB7599CE2791DFA900B95E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7599D82791EBCE00B95E3B /* MealController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealController.swift; sourceTree = "<group>"; };
+		FB7599E02791F3DE00B95E3B /* launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = launch.json; path = "lottie files/launch.json"; sourceTree = SOURCE_ROOT; };
+		FB7599E32791F54E00B95E3B /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		FBD02E542796A58A00F26667 /* ZoomAndSnapFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndSnapFlowLayout.swift; sourceTree = "<group>"; };
+		FBD02E572796BCEF00F26667 /* ChooseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseController.swift; sourceTree = "<group>"; };
+		FBD02E592796CC5700F26667 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		FBD02E5C2796D57200F26667 /* CakeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeController.swift; sourceTree = "<group>"; };
+		FBF18AB827972ACD00EAC9B7 /* CakeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeExtension.swift; sourceTree = "<group>"; };
+		FBF18ABA27972ADA00EAC9B7 /* CakeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeCell.swift; sourceTree = "<group>"; };
+		FBF18ABC27972AE500EAC9B7 /* CakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeModel.swift; sourceTree = "<group>"; };
+		FBF18AC02797E1EB00EAC9B7 /* CakeRetsepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRetsepController.swift; sourceTree = "<group>"; };
+		FBF18AC62797E25300EAC9B7 /* CakeRetsepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeRetsepModel.swift; sourceTree = "<group>"; };
+		FBF18AC82798410400EAC9B7 /* SideMenuExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuExtension.swift; sourceTree = "<group>"; };
+		FBF18ACB2798415000EAC9B7 /* AboutAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppController.swift; sourceTree = "<group>"; };
+		FBF18ACD2798416F00EAC9B7 /* AboutProgrammerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutProgrammerController.swift; sourceTree = "<group>"; };
+		FBF18ACF2798424200EAC9B7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FBFAEBD82795355F0061E3D8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FBFAEBDA279542CB0061E3D8 /* MealsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsCell.swift; sourceTree = "<group>"; };
+		FBFAEBDC2795430F0061E3D8 /* MealsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsExtension.swift; sourceTree = "<group>"; };
+		FBFAEBDE27954D2B0061E3D8 /* MealsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsModel.swift; sourceTree = "<group>"; };
+		FBFAEBE1279568F60061E3D8 /* RetsepController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetsepController.swift; sourceTree = "<group>"; };
+		FBFAEBE327956A6E0061E3D8 /* RestsepExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestsepExtension.swift; sourceTree = "<group>"; };
+		FBFAEBE527956A910061E3D8 /* RetsepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetsepCell.swift; sourceTree = "<group>"; };
+		FBFAEBE727956C7A0061E3D8 /* RetsepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetsepModel.swift; sourceTree = "<group>"; };
+		FBFAEBEA27957A040061E3D8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +93,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013FE56EF170B2F7CFD8262F /* Pods_RetsepUz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E21276BA40F48C645095720 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF51332969F276486C663841 /* Pods-RetsepUz.debug.xcconfig */,
+				C9CE9F3F08E004A600A98854 /* Pods-RetsepUz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F64FFE815EB766DD8ADBED40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB3B13B04AA989CC20AEFE7E /* Pods_RetsepUz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB53995D2792AEC000F277A7 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FBF18ACA2798413800EAC9B7 /* controllers */,
+				FB53995A2792A92900F277A7 /* SideMenuController.swift */,
+				FBF18AC82798410400EAC9B7 /* SideMenuExtension.swift */,
+				FB53995E2792AF0800F277A7 /* SideCell.swift */,
+				FBFAEBD82795355F0061E3D8 /* Model.swift */,
+				FB5399602792AF1D00F277A7 /* SideHeader.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 		FB7599B12791DFA800B95E3B = {
 			isa = PBXGroup;
 			children = (
 				FB7599BC2791DFA800B95E3B /* RetsepUz */,
 				FB7599BB2791DFA800B95E3B /* Products */,
+				2E21276BA40F48C645095720 /* Pods */,
+				F64FFE815EB766DD8ADBED40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +151,119 @@
 		FB7599BC2791DFA800B95E3B /* RetsepUz */ = {
 			isa = PBXGroup;
 			children = (
-				FB7599BD2791DFA800B95E3B /* AppDelegate.swift */,
-				FB7599BF2791DFA800B95E3B /* SceneDelegate.swift */,
-				FB7599C12791DFA800B95E3B /* ViewController.swift */,
-				FB7599C32791DFA800B95E3B /* Main.storyboard */,
+				FB7599E22791F53100B95E3B /* constants */,
+				FB7599D72791EBB400B95E3B /* BaseController */,
+				FB7599D62791E65300B95E3B /* LaunchPage */,
+				FB7599D52791E64000B95E3B /* app */,
+				FB7599D42791E60F00B95E3B /* view */,
 				FB7599C92791DFA900B95E3B /* Assets.xcassets */,
-				FB7599CB2791DFA900B95E3B /* LaunchScreen.storyboard */,
 				FB7599CE2791DFA900B95E3B /* Info.plist */,
 				FB7599C62791DFA800B95E3B /* RetsepUz.xcdatamodeld */,
 			);
 			path = RetsepUz;
+			sourceTree = "<group>";
+		};
+		FB7599D42791E60F00B95E3B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FB7599CB2791DFA900B95E3B /* LaunchScreen.storyboard */,
+				FB7599C32791DFA800B95E3B /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FB7599D52791E64000B95E3B /* app */ = {
+			isa = PBXGroup;
+			children = (
+				FB7599BD2791DFA800B95E3B /* AppDelegate.swift */,
+				FB7599BF2791DFA800B95E3B /* SceneDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		FB7599D62791E65300B95E3B /* LaunchPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB7599E02791F3DE00B95E3B /* launch.json */,
+				FB7599C12791DFA800B95E3B /* ViewController.swift */,
+			);
+			path = LaunchPage;
+			sourceTree = "<group>";
+		};
+		FB7599D72791EBB400B95E3B /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				FBD02E572796BCEF00F26667 /* ChooseController.swift */,
+				FBD02E5B2796D56300F26667 /* CakePage */,
+				FBD02E562796BC9C00F26667 /* MealPage */,
+				FB53995D2792AEC000F277A7 /* SideMenu */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		FB7599E22791F53100B95E3B /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB7599E32791F54E00B95E3B /* AppColors.swift */,
+				FBD02E592796CC5700F26667 /* Buttons.swift */,
+				FBD02E542796A58A00F26667 /* ZoomAndSnapFlowLayout.swift */,
+				FBFAEBEA27957A040061E3D8 /* String.swift */,
+				FBF18ACF2798424200EAC9B7 /* Constants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		FBD02E562796BC9C00F26667 /* MealPage */ = {
+			isa = PBXGroup;
+			children = (
+				FBFAEBDC2795430F0061E3D8 /* MealsExtension.swift */,
+				FB7599D82791EBCE00B95E3B /* MealController.swift */,
+				FBFAEBDA279542CB0061E3D8 /* MealsCell.swift */,
+				FBFAEBDE27954D2B0061E3D8 /* MealsModel.swift */,
+				FBFAEBE0279568D70061E3D8 /* MealRetseps */,
+			);
+			path = MealPage;
+			sourceTree = "<group>";
+		};
+		FBD02E5B2796D56300F26667 /* CakePage */ = {
+			isa = PBXGroup;
+			children = (
+				FBD02E5C2796D57200F26667 /* CakeController.swift */,
+				FBF18AB827972ACD00EAC9B7 /* CakeExtension.swift */,
+				FBF18ABC27972AE500EAC9B7 /* CakeModel.swift */,
+				FBF18ABA27972ADA00EAC9B7 /* CakeCell.swift */,
+				FBF18ABF2797E1D400EAC9B7 /* cakeRetsep */,
+			);
+			path = CakePage;
+			sourceTree = "<group>";
+		};
+		FBF18ABF2797E1D400EAC9B7 /* cakeRetsep */ = {
+			isa = PBXGroup;
+			children = (
+				FBF18AC02797E1EB00EAC9B7 /* CakeRetsepController.swift */,
+				FBF18AC62797E25300EAC9B7 /* CakeRetsepModel.swift */,
+			);
+			path = cakeRetsep;
+			sourceTree = "<group>";
+		};
+		FBF18ACA2798413800EAC9B7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBF18ACB2798415000EAC9B7 /* AboutAppController.swift */,
+				FBF18ACD2798416F00EAC9B7 /* AboutProgrammerController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		FBFAEBE0279568D70061E3D8 /* MealRetseps */ = {
+			isa = PBXGroup;
+			children = (
+				FBFAEBE1279568F60061E3D8 /* RetsepController.swift */,
+				FBFAEBE527956A910061E3D8 /* RetsepCell.swift */,
+				FBFAEBE327956A6E0061E3D8 /* RestsepExtension.swift */,
+				FBFAEBE727956C7A0061E3D8 /* RetsepModel.swift */,
+			);
+			path = MealRetseps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB7599D12791DFA900B95E3B /* Build configuration list for PBXNativeTarget "RetsepUz" */;
 			buildPhases = (
+				0E196F8EC4E76FCED45BBB06 /* [CP] Check Pods Manifest.lock */,
 				FB7599B62791DFA800B95E3B /* Sources */,
 				FB7599B72791DFA800B95E3B /* Frameworks */,
 				FB7599B82791DFA800B95E3B /* Resources */,
+				9018FF737F218ADBEC4440F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,20 +328,90 @@
 			files = (
 				FB7599CD2791DFA900B95E3B /* LaunchScreen.storyboard in Resources */,
 				FB7599CA2791DFA900B95E3B /* Assets.xcassets in Resources */,
+				FB7599E12791F3DE00B95E3B /* launch.json in Resources */,
 				FB7599C52791DFA800B95E3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E196F8EC4E76FCED45BBB06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetsepUz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9018FF737F218ADBEC4440F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RetsepUz/Pods-RetsepUz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RetsepUz/Pods-RetsepUz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetsepUz/Pods-RetsepUz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB7599B62791DFA800B95E3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD02E5A2796CC5700F26667 /* Buttons.swift in Sources */,
+				FBF18ACC2798415000EAC9B7 /* AboutAppController.swift in Sources */,
+				FBFAEBDB279542CB0061E3D8 /* MealsCell.swift in Sources */,
+				FBF18AC72797E25300EAC9B7 /* CakeRetsepModel.swift in Sources */,
+				FBF18AB927972ACD00EAC9B7 /* CakeExtension.swift in Sources */,
+				FBF18ABD27972AE500EAC9B7 /* CakeModel.swift in Sources */,
+				FBD02E552796A58A00F26667 /* ZoomAndSnapFlowLayout.swift in Sources */,
+				FB7599D92791EBCE00B95E3B /* MealController.swift in Sources */,
+				FBF18AC12797E1EB00EAC9B7 /* CakeRetsepController.swift in Sources */,
+				FBF18AD02798424200EAC9B7 /* Constants.swift in Sources */,
+				FBF18ACE2798416F00EAC9B7 /* AboutProgrammerController.swift in Sources */,
+				FBF18ABB27972ADA00EAC9B7 /* CakeCell.swift in Sources */,
 				FB7599C22791DFA800B95E3B /* ViewController.swift in Sources */,
 				FB7599BE2791DFA800B95E3B /* AppDelegate.swift in Sources */,
+				FB5399612792AF1D00F277A7 /* SideHeader.swift in Sources */,
+				FB7599E42791F54E00B95E3B /* AppColors.swift in Sources */,
+				FBFAEBDD2795430F0061E3D8 /* MealsExtension.swift in Sources */,
+				FBFAEBD92795355F0061E3D8 /* Model.swift in Sources */,
+				FB53995B2792A92900F277A7 /* SideMenuController.swift in Sources */,
+				FBFAEBE827956C7A0061E3D8 /* RetsepModel.swift in Sources */,
 				FB7599C02791DFA800B95E3B /* SceneDelegate.swift in Sources */,
+				FBFAEBE427956A6E0061E3D8 /* RestsepExtension.swift in Sources */,
+				FBFAEBEB27957A040061E3D8 /* String.swift in Sources */,
+				FBD02E582796BCEF00F26667 /* ChooseController.swift in Sources */,
+				FBFAEBE2279568F60061E3D8 /* RetsepController.swift in Sources */,
+				FBFAEBDF27954D2B0061E3D8 /* MealsModel.swift in Sources */,
+				FB53995F2792AF0800F277A7 /* SideCell.swift in Sources */,
+				FBD02E5D2796D57200F26667 /* CakeController.swift in Sources */,
+				FBF18AC92798410400EAC9B7 /* SideMenuExtension.swift in Sources */,
+				FBFAEBE627956A910061E3D8 /* RetsepCell.swift in Sources */,
 				FB7599C82791DFA800B95E3B /* RetsepUz.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,18 +556,22 @@
 		};
 		FB7599D22791DFA900B95E3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF51332969F276486C663841 /* Pods-RetsepUz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RetsepUz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,24 +581,28 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FB7599D32791DFA900B95E3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CE9F3F08E004A600A98854 /* Pods-RetsepUz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RetsepUz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +612,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
